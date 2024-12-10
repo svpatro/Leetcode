@@ -1,13 +1,11 @@
 // Problem: Two Sum
+// O(N^2) Solution
+
 #include <vector>
-
-class Solution {
-
+class Naive {
 public:
     std::vector<int> twoSum(std::vector<int>& nums, int target){
-
         std::vector<int> result;
-
         for (int i = 0; i < nums.size() - 1; i++){
             for (int j = i; j < nums.size(); j++){
                 if (i == j){
