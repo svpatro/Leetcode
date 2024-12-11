@@ -3,11 +3,6 @@
 #include "optimal.h"
 #include <vector>
 
-int printSolution(){
-
-}
-
-
 int main(){
 
     std::vector<int> test_1 = {2, 7, 11, 15};
