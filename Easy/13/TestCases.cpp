@@ -1,5 +1,4 @@
 // Problem: Roman to Integer
-// O() Solution
 
 #include <iostream>
 #include "naive.h"
