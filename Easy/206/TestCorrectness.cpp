@@ -1,4 +1,5 @@
 #include "misc.h"
+#include "naive.h"
 #include "optimal.h"
 
 int main(){
